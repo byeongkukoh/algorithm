@@ -1,7 +1,10 @@
 # 🧠 Algorithm
 
+<<<<<<< HEAD
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flunamundus%2Falgorithm.git&count_bg=%2300A0FF&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=algorithm&edge_flat=true)](https://hits.seeyoufarm.com)
 
+=======
+>>>>>>> merge-sub-repo
 다양한 알고리즘 문제를 풀고, 기록하고 공유하는 것을 목표로 합니다.
 
 ## 👊 목표
@@ -11,7 +14,10 @@
 
 ## 🌐 사용 언어
 
+<<<<<<< HEAD
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white) 
+=======
+>>>>>>> merge-sub-repo
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
@@ -39,4 +45,8 @@
 
 ## 📘 기타
 
+<<<<<<< HEAD
 📘 문제 풀이에 대한 내용은 제 블로그인 [코딩 흔적](https://luna-devstory.tistory.com/)에 기록됩니다.
+=======
+📘 문제 풀이에 대한 내용은 제 블로그인 [코딩 흔적](https://luna-devstory.tistory.com/)에 기록됩니다.
+>>>>>>> merge-sub-repo
