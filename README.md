@@ -11,14 +11,16 @@
 
 ## 🌐 사용 언어
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white) 
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 ## ⚠️ 커밋 규칙
 
 ### 📝 Format
 
-⏩ `타입: [출처][난이도] 문제번호. 제목`  
-⏩ `solve: [BOJ][Bronze 5] 1100. A+B`
+⏩ `타입: [언어][출처][난이도] 문제번호. 제목`  
+⏩ `solve: [C/C++][BOJ][Bronze 5] 1100. A+B`
 
 #### ❗ 타입
 
