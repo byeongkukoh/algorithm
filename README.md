@@ -39,4 +39,4 @@
 
 ## 📘 기타
 
-📘 문제 풀이에 대한 내용은 제 블로그인 [코딩 흔적](https://luna-devstory.tistory.com/)에 기록됩니다.
+📘 문제 풀이에 대한 내용은 제 블로그인 [DevKuk 개발 블로그](https://devkuk.tistory.com/)에 기록됩니다.
