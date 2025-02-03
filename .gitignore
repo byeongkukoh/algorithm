@@ -5,3 +5,4 @@
 *.exe
 
 # 특정 파일 제외
+mincoding.cpp
