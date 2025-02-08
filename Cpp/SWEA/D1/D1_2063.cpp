@@ -1,20 +1,44 @@
-#include <stdio.h>
+// #include <stdio.h>
+// #include <algorithm>
+
+// int main()
+// {
+//     int n;
+//     scanf("%d", &n);
+
+//     int arr[n];
+//     for (int i = 0; i < n; i++)
+//     {
+//         scanf("%d", &arr[i]);
+//     }
+
+//     std::sort(arr, arr + n);
+
+//     printf("%d", arr[n / 2]);
+
+//     return 0;
+// }
+
 #include <algorithm>
+#include <iostream>
+#include <vector>
 
-int main()
-{
-    int n;
-    scanf("%d", &n);
+using namespace std;
 
-    int arr[n];
-    for (int i = 0; i < n; i++)
-    {
-        scanf("%d", &arr[i]);
-    }
+int main() {
+  int N;
+  cin >> N;
 
-    std::sort(arr, arr + n);
+  vector<int> vect;
+  vect.resize(N);
 
-    printf("%d", arr[n / 2]);
+  for (int i = 0; i < N; i++) {
+    cin >> vect[i];
+  }
 
-    return 0;
+  sort(vect.begin(), vect.end());
+
+  cout << vect[N / 2];
+
+  return 0;
 }
