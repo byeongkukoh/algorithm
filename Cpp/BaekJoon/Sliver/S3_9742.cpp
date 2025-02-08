@@ -17,7 +17,7 @@ void init() {
   str = "";
   check = false;
   N = 0;
-  cnt = 1;
+  cnt = 0;
 }
 
 void func(int now) {
@@ -55,14 +55,18 @@ void func(int now) {
 }
 
 int main() {
-  while (!cin.eof()) {
+  while (1) {
+    // if (cin.eof() == true) break;
+
     init();
 
     cin >> str >> N;
 
     func(0);
 
-    if (!check) {
+    if (cin.eof() == true)
+      break;
+    else if (!check) {
       cout << str << " " << N << " = " << "No permutation\n";
     }
   }
