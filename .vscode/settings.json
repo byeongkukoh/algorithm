@@ -6,4 +6,5 @@
     "editor.formatOnSave": true,
     // 코드 포매팅 스타일을 정의합니다.
     "C_Cpp.clang_format_fallbackStyle": "google",
+    "editor.fontSize": 20,
 }
