@@ -7,6 +7,7 @@
     // 코드 포매팅 스타일을 정의합니다.
     "C_Cpp.clang_format_fallbackStyle": "google",
     "editor.fontSize": 20,
+    "terminal.integrated.fontSize": 20,
     "files.associations": {
         "*.css": "css",
         "iostream": "cpp"
