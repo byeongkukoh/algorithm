@@ -18,7 +18,7 @@ int N, M, K;
 int remain_tower = 0;
 
 vector<vector<Tower>> map;    // 포탑 지도
-vector<bool> isDistory;       // 파괴 여부 저장 (ID 기반)
+vector<bool> isdestroy;       // 파괴 여부 저장 (ID 기반)
 vector<vector<int>> visited;  // 최단 거리 (방문 여부)
 vector<Tower> path;           // 방문 경로 (ID 기반)
 vector<bool> isAttack;        // 공격 관여 여부
@@ -57,7 +57,7 @@ int main() {
 
       if (target.atk <= 0) {
         target.atk = 0;
-        isDistory[target.id] = true;
+        isdestroy[target.id] = true;
         remain_tower--;
       }
 
@@ -73,7 +73,7 @@ int main() {
         next.atk = next.atk - (attk.atk / 2);
         if (next.atk <= 0) {
           next.atk = 0;
-          isDistory[next.id] = true;
+          isdestroy[next.id] = true;
           remain_tower--;
         }
         isAttack[next.id] = true;
@@ -86,7 +86,7 @@ int main() {
 
       if (target.atk <= 0) {
         target.atk = 0;
-        isDistory[target.id] = true;
+        isdestroy[target.id] = true;
         remain_tower--;
       }
 
@@ -119,7 +119,7 @@ int main() {
 
         if (map[ny][nx].atk <= 0) {
           map[ny][nx].atk = 0;
-          isDistory[map[ny][nx].id] = true;
+          isdestroy[map[ny][nx].id] = true;
           remain_tower--;
         }
 
@@ -159,7 +159,7 @@ void init() {
   cin >> N >> M >> K;
 
   map.resize(N, vector<Tower>(M));
-  isDistory.resize(N * M, true);
+  isdestroy.resize(N * M, true);
 
   int id = 0;
   for (int i = 0; i < N; i++) {
@@ -168,7 +168,7 @@ void init() {
       cin >> temp.atk;
 
       if (temp.atk != 0) {
-        isDistory[temp.id] = false;
+        isdestroy[temp.id] = false;
         remain_tower++;
       }
 
