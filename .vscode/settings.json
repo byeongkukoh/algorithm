@@ -10,6 +10,7 @@
     "terminal.integrated.fontSize": 20,
     "files.associations": {
         "*.css": "css",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "string": "cpp"
     },
 }
