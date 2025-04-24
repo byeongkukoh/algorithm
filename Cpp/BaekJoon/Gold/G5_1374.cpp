@@ -17,6 +17,8 @@ struct Time {
 
   bool operator<(Time right) const {
     if (end != right.end) return end > right.end;
+
+    return false;
   }
 };
 
