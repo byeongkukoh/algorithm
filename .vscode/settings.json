@@ -11,6 +11,7 @@
     "files.associations": {
         "*.css": "css",
         "iostream": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "ostream": "cpp"
     },
 }
