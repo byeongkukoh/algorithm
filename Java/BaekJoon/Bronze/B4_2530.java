@@ -1,8 +1,8 @@
-package BaekJoon;
+package BaekJoon.Bronze;
 
 import java.util.Scanner;
 
-public class Main {
+public class B4_2530 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -31,7 +31,7 @@ public class Main {
         }
 
         if (hour >= 24) {
-            hour -= 24;
+            hour %= 24;
         }
 
         System.out.print(hour);
