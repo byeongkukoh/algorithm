@@ -12,6 +12,7 @@
         "*": false
     },
     "files.associations": {
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "queue": "cpp"
     },
 }
