@@ -1,6 +1,8 @@
+package BaekJoon.Bronze;
+
 import java.util.Scanner;
 
-public class Main {
+public class B2_32860 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,7 +17,7 @@ public class Main {
         } else {
             int q = (number - 1) / 26;
             int r = (number - 1) % 26;
-            
+
             System.out.print((char)('a' + q - 1));
             System.out.print((char)('a' + r));
         }
