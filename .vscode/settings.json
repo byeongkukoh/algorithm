@@ -12,7 +12,9 @@
         "*": false
     },
     "files.associations": {
+        "*.css": "css",
         "xlocale": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "B1_8595.C": "cpp"
     },
 }
