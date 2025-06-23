@@ -15,6 +15,7 @@
         "*.css": "css",
         "xlocale": "cpp",
         "queue": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "vector": "cpp"
     },
 }
