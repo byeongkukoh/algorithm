@@ -16,5 +16,6 @@
         "xlocale": "cpp",
         "queue": "cpp",
         "iostream": "cpp",
+        "iosfwd": "cpp"
     },
 }
