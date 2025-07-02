@@ -11,5 +11,7 @@ public class B5_30030 {
         int a = b / 110 * 100;
 
         System.out.println(a);
+
+        sc.close();
     }
 }
