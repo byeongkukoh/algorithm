@@ -19,4 +19,7 @@
         "iosfwd": "cpp",
         "utility": "cpp"
     },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
 }
