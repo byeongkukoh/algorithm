@@ -17,9 +17,9 @@ class Main {
 
         int now = 2;
         int gcd = 1;
-        while (now <= AM && now <= CM * BM) {
+        while (now <= CM && now <= AM * BM) {
             // 공약수이면
-            if ((AM % now == 0) && ((CM * BM) % now == 0)) {
+            if ((CM % now == 0) && ((AM * BM) % now == 0)) {
                 gcd = now;
             }
 
@@ -27,9 +27,9 @@ class Main {
         }
 
         if (gcd == 1) {
-            System.out.println((CM * BM) + " " + (AM));
+            System.out.println((AM * BM) + " " + (CM));
         } else {
-            System.out.println(((CM * BM) / gcd) + " " + (AM / gcd));
+            System.out.println(((AM * BM) / gcd) + " " + (CM / gcd));
         }
     }
 }
